@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(61, 56, 56),rgb(6, 161, 204), rgb(191, 0, 255));
+}
+ #aboutme{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    color: white;
+}
+ #nav{
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2vw;
+} 
+  #midNav{
+    width: 50vh;
+    display: flex;
+    justify-content: space-between;
+} 
+a{ 
+    text-decoration: none;
+    color: white;
+
+} 
+ a:hover{
+    cursor: pointer;
+    background-color: rgb(236, 235, 230);
+    color: #272727;
+    border-radius: 1vh;
+    text-align: center;
+}  
+ h1{
+    font-size: 4vh;
+    margin-top: 5vw;
+    margin-left: 7vw;
+    color: rgb(192, 30, 57);
+}
+#spacizilation{
+    margin-top: 0;
+    
+} 
+#emojy{
+    height: auto;
+    width: 16vw;
+    margin-top: 12vw;
+   font-size: 7rem;
+   margin-left: 18vw;
+   animation-name: move;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+@keyframes move {
+    0%{
+      rotate: 0 deg;
+    }
+    10%{
+     rotate: 14deg;
+    }
+    20%{
+     rotate: -8deg;
+    }
+    30%{
+     rotate: 14deg;
+    }
+    40%{
+     rotate: -4deg;
+    }
+    50%{
+     rotate: 10deg;
+    }
+    60%{
+     rotate: 0deg;
+    }
+    100%{
+     rotate: 0deg;
+    }
+ }
+ #aboutmep{
+     margin-top: 5vw;
+     font-size: 3vh;
+     margin-left: 3vw;
+ }
+ .futreaim{
+ text-transform: uppercase;
+ color: rgb(19, 243, 113);
+ text-decoration: underline;
+ }
+ 
+#skills{
+    height: 100vh;
+    width: 100vw; 
+}
+.skil{
+    height: 15vh;
+    width: 20vw;
+    margin-left: 7vw;
+    margin-bottom: 2vh;
+    font-size: 1.5em;
+}
+#Projects {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50vh,1fr));  */
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.haddingProject{
+    font-size: 4rem;
+   margin: 0;
+}
+.pro{
+    border: 0.4vh solid rgb(43, 37, 37);
+    border-radius: 2vw;
+    box-sizing: border-box;
+   margin-left: 1vw;
+   height: 60vh;
+   width: 50vw;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #fff;
+}
+ul,li{
+font-size: 3vh;
+list-style: none;
+}
+p{
+    font-size: 2vw;
+}
+#contact{
+    height: 100vh;
+    width: 100vw;
+}
+.link{
+    margin-top: 6vh;
+    margin-left: 20vw;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+#mob{
+    margin-top: 6vh;
+    margin-left: 20vw;
+    font-size: 3vw;
+}
