@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100%;
+            width: 100%;
+            background-color: #272727;
+            display: flex;
+            justify-content: center;
+        }
+        .con {
+            height: 500px;
+            width: 360px;
+            box-shadow:1px 2px 1px 2px black;
+        }
+        .btn {
+            height: 50px;
+            width: 50px;
+            background-color: transparent;
+            font-size: 20px;
+            color: #fff;
+            border-radius: 50px;
+            box-shadow: 2px 1px 1px 1px rgb(223, 118, 80);
+            margin-left: 10px;
+        }
+        input{
+            display: block;
+            margin-bottom: 18px;
+            height: 50px;
+            width: 350px;
+            font-size: 25px;
+            text-align: end;
+        }
+        .divBtn{
+            height: 400px;
+            width: 360px;
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+            grid-template-rows:repeat(3,1fr);
+        }
+        #del{
+            margin-left: 400px;       }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <input type="text" placeholder="0">
+        <div class="divBtn">
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">AC</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">del</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn">/</button>
+        <button class="btn">0</button>
+        <button class="btn">-</button>
+        <button class="btn">+</button>
+        <button class="btn">*</button>
+        <button class="btn">=</button>
+    </div>
+</div>
+<script src="CalculatorLogic.js"></script>
+</body>
+
+</html>
